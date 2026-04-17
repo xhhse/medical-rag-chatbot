@@ -4,6 +4,9 @@ This project is a multilingual medical question-answering system built with Stre
 
 The application follows a retrieval-augmented generation (RAG) architecture. User questions are embedded with a local sentence-transformer model, matched against two FAISS vector stores, and then passed to a large language model to generate grounded answers based on retrieved medical references.
 
+## App Preview
+
+![Medical QA Chatbot screenshot](img/image.png)
 ## Project Structure
 
 ```text
