@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# Generated assets
+model/
+vectorstores/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+/medmcqa/
