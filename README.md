@@ -1,9 +1,12 @@
 # Medical QA Chatbot
 
-This project is a multilingual medical question-answering system built with Streamlit, LangChain, FAISS, SentenceTransformers, and the OpenAI API.
+This project is a multilingual medical question-answering chatbot built using a Retrieval-Augmented Generation (RAG) architecture.
 
-The application follows a retrieval-augmented generation (RAG) architecture. User questions are embedded with a local sentence-transformer model, matched against two FAISS vector stores, and then passed to a large language model to generate grounded answers based on retrieved medical references.
+The system is implemented with Streamlit, LangChain, FAISS, and sentence-transformer embeddings, and integrates a large language model to generate grounded responses based on retrieved medical information.
 
+It supports Traditional Chinese, English, and Swedish, and is designed to provide structured and safe answers without generating diagnoses or prescriptions.
+
+This project demonstrates my ability to build end-to-end AI applications, including information retrieval, NLP, and user-facing system design.
 ## App Preview
 
 ![Medical QA Chatbot screenshot](img/image.png)
